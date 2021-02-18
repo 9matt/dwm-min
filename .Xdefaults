@@ -1,50 +1,42 @@
-! Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-! Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+! special
+*.foreground:   #ead8e4
+*.background:   #070305
+*.cursorColor:  #ead8e4
 
-! Project:    Nord XResources
-! Version:    0.1.0
-! Repository: https://github.com/arcticicestudio/nord-xresources
-! License:    MIT
+! black
+*.color0:       #0e050b
+*.color8:       #f4d0e9
 
-#define nord0 #2E3440
-#define nord1 #3B4252
-#define nord2 #434C5E
-#define nord3 #4C566A
-#define nord4 #D8DEE9
-#define nord5 #E5E9F0
-#define nord6 #ECEFF4
-#define nord7 #8FBCBB
-#define nord8 #88C0D0
-#define nord9 #81A1C1
-#define nord10 #5E81AC
-#define nord11 #BF616A
-#define nord12 #D08770
-#define nord13 #EBCB8B
-#define nord14 #A3BE8C
-#define nord15 #B48EAD
+! red
+*.color1:       #20101b
+*.color9:       #c7c264
 
-*.foreground:   nord4
-*.background:   nord0
-*.cursorColor:  nord4
-*fading: 0
-*fadeColor: nord3
+! green
+*.color2:       #371f30
+*.color10:      #f6b0a1
 
-*.color0: nord1
-*.color1: nord11
-*.color2: nord14
-*.color3: nord13
-*.color4: nord9
-*.color5: nord15
-*.color6: nord8
-*.color7: nord5
-*.color8: nord3
-*.color9: nord11
-*.color10: nord14
-*.color11: nord13
-*.color12: nord9
-*.color13: nord15
-*.color14: nord7
-*.color15: nord6
+! yellow
+*.color3:       #57344d
+*.color11:      #f0bde1
+
+! blue
+*.color4:       #7f4f72
+*.color12:      #a9aff0
+
+! magenta
+*.color5:       #b06f9e
+*.color13:      #edbeb6
+
+! cyan
+*.color6:       #d0a3c2
+*.color14:      #85ecb0
+
+! white
+*.color7:       #eddee8
+*.color15:      #69eda5
+
+! fading (optional)
+*.fading: 0
 
 !! URxvt Appearance
 URxvt.font: xft:Hack:style=Regular:size=8

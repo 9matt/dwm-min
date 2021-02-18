@@ -2,7 +2,7 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 3;        /* gaps between windows */
+static const unsigned int gappx     = 4;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -11,15 +11,15 @@ static const int horizpadbar        = 3;        /* horizontal padding for status
 static const int vertpadbar         = 0;        /* vertical padding for statusbar */
 static const char *fonts[]          = { "Hack:size=7" };
 static const char dmenufont[]       = "Hack:size=10";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_nord[]        = "#2E3440";
+static const char col_bg[]          = "#070305";
+static const char col_gray[]        = "#bbbbbb";
+static const char col_sel[]         = "#20101b";
+static const char col_bright[]      = "#371f30";
+static const char col_white[]       = "#eeeeee";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_nord,  col_nord},
+	[SchemeNorm] = { col_gray, col_bg, col_sel},
+	[SchemeSel]  = { col_white, col_sel,  col_sel},
 };
 
 /* tagging */
@@ -60,7 +60,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_nord, "-sf", col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_bg, "-nf", col_gray, "-sb", col_sel, "-sf", col_white, NULL };
 static const char *termcmd[]  = { "urxvt", NULL };
 
 static Key keys[] = {
