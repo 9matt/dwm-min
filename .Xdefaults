@@ -1,44 +1,25 @@
-! special
-*.foreground:   #ead8e4
-*.background:   #070305
-*.cursorColor:  #ead8e4
-
-! black
-*.color0:       #0e050b
-*.color8:       #f4d0e9
-
-! red
-*.color1:       #20101b
-*.color9:       #c7c264
-
-! green
-*.color2:       #371f30
-*.color10:      #f6b0a1
-
-! yellow
-*.color3:       #57344d
-*.color11:      #f0bde1
-
-! blue
-*.color4:       #7f4f72
-*.color12:      #a9aff0
-
-! magenta
-*.color5:       #b06f9e
-*.color13:      #edbeb6
-
-! cyan
-*.color6:       #d0a3c2
-*.color14:      #85ecb0
-
-! white
-*.color7:       #eddee8
-*.color15:      #69eda5
-
-! fading (optional)
-*.fading: 0
+! Dracula Xresources palette
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
 
 !! URxvt Appearance
+Urxvt.internalBorder: 5
 URxvt.font: xft:Hack:style=Regular:size=8
 URxvt.boldFont: xft:Hack:style=Bold:size=8
 URxvt.italicFont: xft:Hack:style=Italic:size=8
